@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+#canvas {
+   margin-top: 125px;
+}
+#score {
+    margin-top: 100px;
+    color: #fefefe;
+    font-size: 50px;
+}
+#recommencer {
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fefefe;
+    display: none;
+    
+}
